@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@200&display=swap');
+
+.experience
+{
+    display:flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    width:200px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.experience > h1
+{
+    color:white;
+}
+.experience > p
+{
+    color:white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    align-items: center;
+    border-radius: 10px;
+}

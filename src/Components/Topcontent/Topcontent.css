@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+.Topcontent
+{
+    
+color:white;
+position: relative;
+
+}
+
+.Topcontent_container
+{
+    position:absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.Topcontent_container > p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 1px;
+    font-size: 20px;
+
+}
+.Topcontent_container >a > button
+{
+    border: none;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    
+}
+.Topcontent_container>h1{
+    font-size: 70px;
+    color: white;
+    font-family: "Crimson Text",sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.Topcontent_downloadbutton
+{
+    color:white;
+    background:crimson;
+    
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: "Crimson Text",sans-serif;
+    cursor: pointer;
+    margin-right: 40px;
+    border-radius: 5px;
+
+}
+
+.Topcontent_downloadbutton:hover
+{
+    color: crimson;
+    background-color: white;
+    font-weight: 600;
+    transition: 300ms ease-in-out;
+
+
+}
+
+.Topcontent_myprojects
+{
+    color:white;
+    background:none;
+    border: 1px solid white !important;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-family: "Crimson Text",sans-serif;
+    cursor: pointer;
+    
+    border-radius: 5px;
+
+}
+
+.Topcontent_myprojects:hover
+{
+    color: crimson;
+    background-color: white;
+    font-weight: 600;
+    transition: 300ms ease-in-out;
+
+}
